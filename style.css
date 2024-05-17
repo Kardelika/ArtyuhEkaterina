@@ -3,27 +3,86 @@
 }
 
 body{
-    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     margin: 0;
 }
 
+footer{
+    background-color: black;
+}
+
+footer h3{
+    color: white;
+}
+
 h1{
+    font-size: 7rem;
+    font-variant: small-caps;
+}
+
+.subtitle{
+    font-size: 3rem;
+}
+
+h2{
     font-size: 4rem;
+    color: #af4000;
 }
 
 .row{
     display: flex;
+    justify-content: space-between;
 }
 
-.home-office{
-    background-color: rgb(255, 204, 138);
+.row_1{
+    display: flex;
+    justify-content: space-between;
 }
 
 .house{
-    background-color: rgb(111, 197, 255);
     max-width: 50%;
 }
 
 .house img{
-    max-width: 100%;
+    max-width: 40rem;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 2rem;    
+}
+
+.container_1{
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: right;
+    padding: 2rem;    
+}
+
+header{ 
+    background: url(img/1613416223_69-p-bezhevii-fon-osen-110.jpg);
+}
+
+button{
+    background-color: rgb(0, 0, 0, 0);
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    outline: auto;
+}
+
+@media(max-width:1024px){
+    main .row{
+        flex-direction: column-reverse;
+    }
+
+    main .row_1{
+        flex-direction: column;
+    }
+
+    main p{
+        display: none;
+    }
 }
