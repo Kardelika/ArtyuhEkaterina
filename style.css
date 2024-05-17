@@ -1,0 +1,8 @@
+*{
+    font-size: 62.5%; /* базовый размер шрифта в rem. 16px * 0,625 = 10px (1rem)*/
+    margin: 0;
+}
+
+body{
+    font-size: 8rem;
+}
