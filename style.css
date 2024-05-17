@@ -10,3 +10,15 @@ body{
 h1{
     font-size: 150rem;
 }
+
+.row{
+    display: flex;
+}
+
+.home-office{
+    background-color: rgb(255, 204, 138);
+}
+
+.house{
+    background-color: rgb(111, 197, 255);
+}
