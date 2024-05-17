@@ -1,10 +1,10 @@
 :root{
     font-size: 62.5%; /* базовый размер шрифта в rem. 16px * 0,625 = 10px (1rem)*/
-    margin: 0;
 }
 
 body{
     font-size: 8rem;
+    margin: 0;
 }
 
 h1{
@@ -21,4 +21,9 @@ h1{
 
 .house{
     background-color: rgb(111, 197, 255);
+    max-width: 50%;
+}
+
+.house img{
+    max-width: 100%;
 }
